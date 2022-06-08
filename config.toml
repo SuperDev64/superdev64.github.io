@@ -1,3 +1,4 @@
-baseURL = 'http://superdev64.com/'
+baseURL = 'https://superdev64.com/'
 languageCode = 'pt-br'
 title = 'SuperDev64'
+theme = "ananke"
