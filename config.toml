@@ -2,3 +2,7 @@ baseURL = 'https://superdev64.com/'
 languageCode = 'pt-br'
 title = 'SuperDev64'
 theme = "ananke"
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/superdev.64"
