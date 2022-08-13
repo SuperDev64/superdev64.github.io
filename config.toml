@@ -1,8 +1,28 @@
 baseURL = 'https://superdev64.com/'
 languageCode = 'pt-br'
+defaultContentLanguage = "pt-br"
 title = 'SuperDev64'
-theme = "ananke"
+theme = "lynx"
 
-[[params.ananke_socials]]
-name = "instagram"
-url = "https://www.instagram.com/superdev.64"
+copyright = ":computer:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "SuperDev64"
+  headline = "João Carvalho | Engenheiro de Software Sênior"
+  image = "https://github.com/jovtrc.png"  # path relative to static directory
+
+  links = [
+    { instagram = { href = "https://instagram.com/superdev.64", text = "Perfil no Instagram" } },
+    { youtube = { href = "https://www.youtube.com/channel/UCdbYHaGypUZNFkXL6APF92Q", text = "Canal no Youtube" } },
+    { github = { href = "https://github.com/jovtrc", text = "Meu Github" } },
+    { linkedin = { href = "https://linkedin.com/in/jovtrc", text = "LinkedIn" } },
+    { facebook = { href = "https://fb.me/superdev.64", text = "Página no Facebook" } },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
